@@ -6,14 +6,23 @@ This is a professional and modern web application built during a DevOps Internsh
 
 ## ✨ What Does This App Do?
 
-The **Travel Expense Tracker** lets users:
+🧳 Travel Expense Tracker
+A clean, modern, and responsive web application to track travel expenses — built using Node.js, Express, EJS, and styled with CSS.
 
-- 🧾 Enter travel-related expenses like transportation, food, accommodation, etc.
-- 💰 View all added expenses in a list format
-- 📅 Track when the expense was added
-- ✅ Use it in the browser locally or inside a Docker container
+✨ Features:
+📄 Add Expenses: Enter the description, amount, and date of each expense.
 
-It's a simple app that demonstrates **backend + frontend + DevOps integration**.
+🗂️ Expense List: View your added expenses in a neat card-style layout — sorted and styled for readability.
+
+💡 Dynamic UI: Instantly updates the list upon adding new expenses.
+
+📅 Date Picker: Easily select the date of travel using the built-in calendar.
+
+🎨 Professional UI: Styled with clean fonts, colors, and padding to resemble a modern dashboard.
+
+🐳 Dockerized: Can be containerized using Docker.
+
+🔁 CI/CD Ready: Automated build and deployment pipeline set up with GitHub Actions and DockerHub.
 
 ---
 
@@ -41,11 +50,6 @@ It's a simple app that demonstrates **backend + frontend + DevOps integration**.
 
 ---
 
-## 📸 Screenshots
-
-> *(Add some UI screenshots of the form + expense list here if required by mentor)*
-
----
 
 ## 🖥️ How to Run This App
 
