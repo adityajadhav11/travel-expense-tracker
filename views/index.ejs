@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Travel Expense Tracker</title>
+  <link rel="stylesheet" href="/css/style.css">
+</head>
+<body>
+  <div class="container">
+    <h1>Travel Expense Tracker</h1>
+    <form action="/" method="POST">
+      <input type="text" name="description" placeholder="Enter expense description" required>
+      <input type="number" name="amount" placeholder="Enter amount" required>
+      <input type="date" name="date" required>
+      <button type="submit">Add Expense</button>
+    </form>
+
+    <ul>
+      <% expenses.forEach(expense => { %>
+        <li>
+          <span><strong><%= expense.description %></strong> - ₹<%= expense.amount %> on <%= expense.date %></span>
+        </li>
+      <% }) %>
+    </ul>
+  </div>
+</body>
+</html>
